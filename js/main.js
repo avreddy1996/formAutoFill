@@ -1,0 +1,2 @@
+var a = document.getElementById('auto');
+a.href = "javascript: fill();function fill(){console.log('triggered');var name = document.querySelectorAll(\"input[placeholder='Name']\");name[0].value = 'K Aravind';var age = document.querySelectorAll(\"[placeholder='Age']\");age[0].value = '22';var gender = document.querySelectorAll(\"select[formcontrolname='passengerGender']\");gender[0].value = 'M';var captcha = document.getElementById('nlpCaptchaContainer');captcha.focus();}"
